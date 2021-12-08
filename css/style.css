@@ -1,0 +1,48 @@
+.panel div {
+    margin: 2.5rem 0 0.68rem 0;
+    line-height: 36px;
+}
+
+.container h1 {
+    font-size: 3.2rem;
+    line-height: 100%;
+    margin: 1.8rem 0 0.68rem 0;
+}
+
+.container h4 {
+    margin: 0.52rem 0 1.912rem 0;
+}
+
+.site-index {
+    height: 700px;
+}
+
+form .input-field.col label {
+    font-size: 1rem;
+    position: relative;
+    left: 0;
+    border-bottom: 1px dashed #9e9e9e;
+}
+
+form select {
+    display: block;
+    height: 2.5rem;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+form select:hover {
+    border: 1px solid #42A5F5;
+}
+
+form input[type="submit"] {
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+form input[readonly] {
+    font-style: italic;
+    color: #757575;
+}
